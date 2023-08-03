@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Formulário</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css"/>
+
+</head>
+<body>
+    <!--Formulário Pessoais-->
+    
+    <h1><img align="right" src="logo.avif" alt="logo" id="logo2"/><img align="left" src="logo.avif" alt="logo"/>Formulário</h1>
+    <form action="banco de dados" method="POST">
+
+     <fieldset><img align="right" src="Jotform.webp" alt="computador" id="com"/>   
+            <legend>Dados Pessoais</legend>
+            <label>
+                Primeiro Nome:<br/>
+                <input type="text" name="name" required />
+            </label><br/>
+            <label>
+                Sobrenome:<br/>
+                <input type="text" name="lastname" required />
+            </label><br/>
+            <label>
+                Data De Nascimento:<br/>
+                <input type="date" name="age" required />
+            </label><br/>
+            <label>
+                Número Do RG:<br/>
+                <input type="number" name="age" required />
+            </label><br/>
+            
+            <label>
+                Número Do CPF:<br/>
+                <input type="number" name="age" required />
+            </label><br/>
+            <label>
+                E-mail:<br/>
+                <input type="email" name="email" required />
+            </label><br/>
+            <label>
+                Telefone:<br/>
+                <input type="tel" name="tel-teste" required />
+            </label><br/>
+            <label>
+                Nacionalidade:<br/>
+                <select name="order" size="1" multiple required>
+                <option>Escolhar o pais</option>
+                <option>Brasil</option>
+                <option>Bolivia</option>
+                <option>Argentina</option>
+                <option>Peru</option>
+                <option>Uruguia</option>
+                <option>Equador</option>
+                <option>Venezuela</option>
+                <option>Mexico</option>
+            </label><br/>     
+            </select>
+
+            <label>
+                Foto Do Candidato:<br/>
+                <input type="file" name="photo" accept="image/*" required />
+            </label><br/>
+
+            <button>Enviar</button>
+        </fieldset>
+        <br/>
+        <!--Formulário De Dados Profissionais-->
+
+        <fieldset><img align="right" src="profissional.png" alt="logo profissional" id="pro"/>
+            <legend>Dados Profissionais</legend>
+                <label>
+                    Nome Da Empresa:<br/>
+                    <input type="text" name="empresa" required />
+                </label><br/>
+                <label>
+                    Cargo Na Empresa:<br/>
+                    <input type="text" name="cargo" required />
+                </label><br/>
+                <label>
+                    Quanto Tempo Ficou No Ultimo Emprego:<br/>
+                    <input type="number" name="number" required />
+                </label><br/>
+                <label>
+                    Endereço Da Ultima Empresa:<br/>
+                    <input type="text" name="text" required />
+                </label><br/>
+
+                <button>Enviar</button>
+        </fieldset>
+
+    </form>
+
+    
+    
+    
+</body>
+</html>
